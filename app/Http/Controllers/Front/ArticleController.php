@@ -16,11 +16,6 @@ class ArticleController extends Controller
     public function index()
     {
         $articles = Article::with(['tags','user'])->orderBy('created_at', 'desc')->simplePaginate(5);
-
-//        echo '<pre>';
-//        print_r($articles[0]->tags[0]->name);
-//        die();
-
         return view('front.articles.index', ['articles' => $articles]);
     }
 
