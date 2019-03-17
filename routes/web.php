@@ -46,19 +46,3 @@ Route::middleware(['auth'])->group(function () {
 
 Route::resource('articles', 'Front\ArticleController');
 
-
-Route::get('aaaaaaaa', function (Request $request) {
-
-
-    $faker = \Faker\Factory::create();
-    echo $faker->sentence(1000);
-
-    \App\Article::create([
-        'user_id' => 1,
-        'title' => $faker->sentence(1000),
-        'body' => $faker->sentence(1000),
-    ]);
-
-});
-
-
