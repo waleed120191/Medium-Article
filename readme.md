@@ -10,23 +10,28 @@
 
 # Medium-Article
 
-Admin panel to post articles.
-Ability to add one or more photos to the article.
-Tag Articles
-Frontend to list and display article.
+<ul>
+<li>Admin panel to post articles.</li>
+<li>Ability to add one or more photos to the article.</li>
+<li>Tag Articles</li>
+<li>Frontend to list and display article.</li>
+</ul>
 
 # Configuration
 
-1) Database config in .env file.
-2) php artisan serve on command line.
-3) php artisan migrate:refresh --seed on command line will create sample users by seed.
+<ul>
+<li> Database config in .env file.</li>
+<li> php artisan serve on command line.</li>
+<li> php artisan migrate:refresh --seed on command line will create sample users by seed.</li>
+    </ul>
 
 # Tech
 
-Database migrations and seeds (Use Faker library to create dummy data)
-CRUD and Resource Controllers
-Form Validation and Requests
-Use of Jquery
-Tailwindcss as a CSS framework.
-Testing
-
+<ul>
+<li>Database migrations and seeds (Use Faker library to create dummy data)</li>
+<li>CRUD and Resource Controllers</li>
+<li>Form Validation and Requests</li>
+<li>Use of Jquery</li>
+<li>Tailwindcss as a CSS framework.</li>
+<li>Testing</li>
+</ul>
